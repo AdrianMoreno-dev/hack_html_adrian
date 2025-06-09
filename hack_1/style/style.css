@@ -1,0 +1,38 @@
+/* Colores como variables */
+:root {
+    --main-bg-azul:#93B5C9;
+    --main-bg-red:#AB2849;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+
+.medidas{       
+        height: 15vh;
+        width: 80%;
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        background-color: var(--main-bg-red);
+    }
+
+.caja1{
+    background-color: var(--main-bg-azul);
+    height: 15vh;
+}
+
+.caja2{
+    background-color: var(--main-bg-red);
+    height: 30vh;
+}
+
+.caja4{
+    background-color: var(--main-bg-red);
+    height: 15vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
